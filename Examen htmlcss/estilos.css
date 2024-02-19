@@ -1,0 +1,209 @@
+body{
+    background-color: rgb(15, 15, 75);
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.a{
+    color: white;
+}
+
+.agrupadomenu ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin: 10px 5px 5px 10px;
+    padding: 5px 10px 10px 5px;
+}
+.agrupadomenu ul li{
+    list-style: none;
+    padding: 0 5px 0 5px;
+    font-size: 20px;
+    text-decoration: none;
+}
+.agrupadomenu ul li a{
+    text-decoration: none;
+    color: white;
+}
+.agrupadomenu img{
+    width: 100px;
+}
+
+.fondoimagen{
+    position: relative;
+    display: inline-block;
+}
+
+.fondoimagen img{
+    width: 1950px;
+    height: 400px;
+}
+
+.texto1{
+    position: absolute;
+    top: 70px;
+    left: 10%;
+    font-size: 40px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.texto2{
+    position: absolute;
+    font-size: 16px;
+    top: 160px;
+    left: 10%;
+    text-decoration:none;
+    font-weight:600;
+    font-size:20px;
+    padding-top:20px;
+    padding-bottom:20px;
+    padding-left:40px;
+    padding-right:40px;
+    background-color:dodgerblue;
+    border-bottom: white;
+}
+.texto2 a{
+    text-decoration: none;
+    list-style: none;
+    color: wheat;
+}
+
+.tp{
+    display: flex;
+    justify-content: center;
+    border: 1px solid white;
+    margin: 5px;
+    padding: 5px;
+}
+.tp h2{
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}   
+
+.fila{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.pelis{
+    display: flex;
+    align-items: center;
+}
+
+.peli{
+    width: 250px;
+    height: 400px;
+    border: 1px solid gray;
+    padding: 20px;
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.peli img{
+    width: 220px;
+}
+
+.texto3{
+    position: absolute;
+    top: 70px;
+    left: 7%;
+    font-size: 20px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.texto4{
+    position: absolute;
+    top: 130px;
+    left: 5%;
+    font-size: 20px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    width: 250px;
+    height: 400px;
+    padding: 0px;
+    margin: 20px;
+}
+.texto5{
+    position: absolute;
+    top: 340px;
+    left: 6%;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+
+.texto5 a{
+    color: dodgerblue;
+    text-decoration: none;
+}
+
+.menuf{
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.agrupadofooter{
+    width: 1300px;
+    margin: 0 auto 0 auto;
+    padding: 20px 50px 0 50px; 
+}
+
+#mf{
+    width: 100%;
+    list-style: none;
+    border: 1px solid white;
+}
+
+#mf ul li{
+    list-style: none;
+}
+
+#mf ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: "Oswald" , sans-serif;
+    list-style: none;
+    margin: 20px;
+    padding: 0;
+}
+
+.fila{
+    display: flex;
+}
+.regalos{
+    display: flex;
+    justify-content: space-around;
+}
+
+.regalo{
+    width: 350px;
+    height: 500px;
+    border: 1px solid white;
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    background-color: white;
+}
+
+.textoregalo{
+    font-size: 15px;
+    color: black;
+}
+.textoregalo a{
+
+}
+.regalo img{
+    width: 300px;
+}
